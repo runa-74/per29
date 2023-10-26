@@ -1,0 +1,170 @@
+.tooltip{
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+}
+.tooltip .tooltext{
+    visibility: hidden;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    padding: 1.5px;
+    left: 0;
+    bottom: -30px;
+}
+.tooltip:hover .tooltext{
+    visibility: visible;
+
+}
+.tooltip1{
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    margin-top: 200px;
+}
+.tooltip1 .tooltext1{
+    visibility: hidden;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    padding: 1.5px;
+    left: -150px;
+}
+.tooltip1:hover .tooltext1{
+    visibility: visible;
+
+}
+
+.tooltip2{
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    margin-top: 200px;
+}
+.tooltip2 .tooltext2{
+    visibility: hidden;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    padding: 1.5px;
+    top: -40px;
+    left: 0;
+}
+.tooltip2:hover .tooltext2{
+    visibility: visible;
+
+}
+.tooltip2 .tooltext2::after{
+    content: "";
+    position: absolute;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #000 #000
+    transparent transparent;
+}
+
+
+.tooltip3{
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    margin-top: 200px;
+}
+.tooltip3 .tooltext3{
+    visibility: hidden;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    padding: 1.5px;
+    top: -40px;
+    left: 0;
+}
+.tooltip3:hover .tooltext3{
+    visibility: visible;
+
+}
+.tooltip3 .tooltext3::after{
+    content: "";
+    position: absolute;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #000 transparent
+    #000 #000;
+}
+.tooltip4{
+    position: relative;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    margin-top: 200px;
+}
+.tooltip4 .tooltext4{
+    visibility: hidden;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+    padding: 1.5px;
+    top: -40px;
+    left: 0;
+}
+.tooltip4:hover .tooltext4{
+    visibility: visible;
+
+}
+.tooltip4 .tooltext4::after{
+    content: "";
+    position: absolute;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #000 transparent 
+    transparent transparent;
+    top: 20px;
+    left: 60px;
+}
+
+.mask1{
+    -webkit-mask-image: url(w3.png);
+    mask-image: url(w3.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: #fff;
+    border: none;
+
+}
+btn:hover{
+    cursor: pointer; 
+}
+
+.danger{
+    background-color: red;
+    color: #000;
+
+}
+.primary{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
